@@ -10,4 +10,17 @@ import UIKit
 
 class CarouselCollectionViewCell: UICollectionViewCell {
     
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        setupViews()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setupViews()
+    }
+    
+    private func setupViews() {
+        contentView.backgroundColor = .blue
+    }
 }
