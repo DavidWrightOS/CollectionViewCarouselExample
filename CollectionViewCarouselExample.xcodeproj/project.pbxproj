@@ -14,6 +14,7 @@
 		63487F7F24675DDD002EF3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63487F7D24675DDD002EF3FE /* LaunchScreen.storyboard */; };
 		63487F8B24675ECD002EF3FE /* CarouselCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63487F8A24675ECD002EF3FE /* CarouselCollectionViewController.swift */; };
 		63487F8D24675EF8002EF3FE /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63487F8C24675EF8002EF3FE /* CarouselCollectionViewCell.swift */; };
+		63F2605B2467685800DAD4B9 /* ZoomAndSnapFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F2605A2467685800DAD4B9 /* ZoomAndSnapFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		63487F8024675DDD002EF3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63487F8A24675ECD002EF3FE /* CarouselCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CarouselCollectionViewController.swift; path = "CollectionViewCarouselExample/View Controllers/CarouselCollectionViewController.swift"; sourceTree = SOURCE_ROOT; };
 		63487F8C24675EF8002EF3FE /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		63F2605A2467685800DAD4B9 /* ZoomAndSnapFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAndSnapFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				63487F8824675E69002EF3FE /* View Controllers */,
 				63487F8924675E75002EF3FE /* Views */,
+				63F26059246765B600DAD4B9 /* Custom UI Elements */,
 				63487F8624675E47002EF3FE /* Storyboards */,
 			);
 			path = CollectionViewCarouselExample;
@@ -100,6 +103,14 @@
 				63487F8C24675EF8002EF3FE /* CarouselCollectionViewCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		63F26059246765B600DAD4B9 /* Custom UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+				63F2605A2467685800DAD4B9 /* ZoomAndSnapFlowLayout.swift */,
+			);
+			path = "Custom UI Elements";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F2605B2467685800DAD4B9 /* ZoomAndSnapFlowLayout.swift in Sources */,
 				63487F8D24675EF8002EF3FE /* CarouselCollectionViewCell.swift in Sources */,
 				63487F7324675DDC002EF3FE /* AppDelegate.swift in Sources */,
 				63487F7524675DDC002EF3FE /* SceneDelegate.swift in Sources */,
